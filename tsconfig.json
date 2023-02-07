@@ -3,5 +3,5 @@
 	"compilerOptions": {
 		"moduleResolution": "Node"
 	},
-	"files": ["index.ts", "daisyui.d.ts"]
+	"files": ["src/index.ts", "src/daisyui.d.ts"]
 }

@@ -4,7 +4,7 @@
 	"description": "UnoCSS preset for daisyUI",
 	"scripts": {
 		"build": "vite build demo",
-		"prepack": "tsc && esbuild index.ts --bundle --format=esm --external:camelcase  --outdir=.",
+		"prepack": "tsc && esbuild index.ts --bundle --format=esm --external:camelcase --outdir=.",
 		"preview": "vite preview demo",
 		"start": "vite demo"
 	},
@@ -20,18 +20,20 @@
 	"dependencies": {
 		"camelcase": "^7.0.0"
 	},
-	"peerDependencies": {
-		"@kidonng/daisyui": "^2.27.0",
-		"unocss": "^0.45.21"
-	},
 	"devDependencies": {
 		"@iconify-json/octicon": "^1.1.17",
+		"@kidonng/daisyui": "github:peter50216/daisyui#tags/v2.50.0",
 		"@kidonng/tsc": "^4.8.3",
 		"@sindresorhus/tsconfig": "^3.0.1",
-		"daisyui": "^2.27.0",
+		"@unocss/reset": "^0.49.4",
+		"autoprefixer": "^10.4.13",
+		"daisyui": "^2.50.0",
 		"esbuild": "^0.15.7",
+		"postcss": "^8.4.21",
 		"typescript": "npm:@kidonng/typescript@^4.8.3",
+		"unocss": "^0.49.4",
 		"vite": "^3.1.0",
+		"webpack": "^5.75.0",
 		"xo": "^0.52.3"
 	}
 }

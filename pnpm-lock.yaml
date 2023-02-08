@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@iconify-json/octicon': ^1.1.17
-  '@kidonng/daisyui': github:peter50216/daisyui#tags/v2.50.0
+  '@kidonng/daisyui': github:peter50216/daisyui#tags/v2.50.1
   '@kidonng/tsc': ^4.8.3
   '@sindresorhus/tsconfig': ^3.0.1
   '@unocss/reset': ^0.49.4
@@ -22,7 +22,7 @@ dependencies:
 
 devDependencies:
   '@iconify-json/octicon': 1.1.30
-  '@kidonng/daisyui': github.com/peter50216/daisyui/3053015575b58435f1a78d0a2414a0237189e433
+  '@kidonng/daisyui': github.com/peter50216/daisyui/137effc4c500559d5a3c60da7612c34980d92269
   '@kidonng/tsc': 4.9.3
   '@sindresorhus/tsconfig': 3.0.1
   '@unocss/reset': 0.49.4
@@ -4204,8 +4204,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  github.com/peter50216/daisyui/3053015575b58435f1a78d0a2414a0237189e433:
-    resolution: {tarball: https://codeload.github.com/peter50216/daisyui/tar.gz/3053015575b58435f1a78d0a2414a0237189e433}
+  github.com/peter50216/daisyui/137effc4c500559d5a3c60da7612c34980d92269:
+    resolution: {tarball: https://codeload.github.com/peter50216/daisyui/tar.gz/137effc4c500559d5a3c60da7612c34980d92269}
     name: '@kidonng/daisyui'
     version: 2.50.0
     dev: true

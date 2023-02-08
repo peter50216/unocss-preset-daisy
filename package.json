@@ -22,7 +22,7 @@
 	},
 	"devDependencies": {
 		"@iconify-json/octicon": "^1.1.17",
-		"@kidonng/daisyui": "github:peter50216/daisyui#tags/v2.50.0",
+		"@kidonng/daisyui": "github:peter50216/daisyui#tags/v2.50.1",
 		"@kidonng/tsc": "^4.8.3",
 		"@sindresorhus/tsconfig": "^3.0.1",
 		"@unocss/reset": "^0.49.4",
